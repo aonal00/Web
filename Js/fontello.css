@@ -34,9 +34,6 @@
   font-variant: normal;
   text-transform: none;
 
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-
   /* you can be more comfortable with increased icons size */
   font-size: 120%;
 
