@@ -1,0 +1,15 @@
+[build]
+  edge_functions = "*"
+  [[edge_functions]]
+  cache = "manual"
+  path = "/*"
+  function = "hello-world"
+  import type { Context, Config } from "@netlify/edge-functions";
+
+export default async (req: Request, context: Context) => {
+  return new Response("Hello world", {
+		headers: {
+			'cache-control': 'public, s-maxage=3600'
+		}
+	});
+}
