@@ -1,7 +1,7 @@
 [[headers]]
-for = "/*"
-[headers.values]
-access-control-allow-origin: "*"
+  for = "/*"
+  [headers.values]
+    access-control-allow-origin = "*"
   for = "*.js" # js files should be set this way
   [headers.values]
     Cache-Control = "public, max-age=31536000"
