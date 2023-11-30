@@ -1,5 +1,5 @@
 [[headers]]
-  for = "*aonal.my.id/*"
+  for = "*kraftindo.com/*"
   [headers.values]
   Access-Control-Allow-Origin = "*"
 
