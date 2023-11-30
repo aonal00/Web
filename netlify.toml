@@ -1,5 +1,7 @@
 [[headers]]
-Access-Control-Allow-Origin: *.kraftindo.com/*
+for = "/*"
+[headers.values]
+Access-Control-Allow-Origin = "*.kraftindo.com/*"
   for = "*.js" # js files should be set this way
   [headers.values]
     Cache-Control = "public, max-age=31536000"
