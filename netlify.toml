@@ -1,5 +1,5 @@
 [[headers]]
-  for = "/*"
+  for = "*aonal.my.id/*"
   [headers.values]
   Access-Control-Allow-Origin = "*"
 
