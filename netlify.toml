@@ -2,3 +2,40 @@
   for = "*"
   [headers.values]
   Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "*.js" # js files should be set this way
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
+[[headers]]
+  for = "*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
+[[headers]]
+  for = "*.otf"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
+[[headers]]
+  for = "*.eot"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
+[[headers]]
+  for = "*.ttf"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
+[[headers]]
+  for = "*.woff"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
+[[headers]]
+  for = "*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate=60, stale-if-error=60"
